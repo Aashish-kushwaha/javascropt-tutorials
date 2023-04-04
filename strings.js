@@ -19,3 +19,4 @@ console.log( typeof s);
 console.log( typeof st);
 
 //comparing string:Use the comparison operators `>, >=, <, <=, == to compare strings.
+
