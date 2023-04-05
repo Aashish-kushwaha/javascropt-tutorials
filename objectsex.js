@@ -70,3 +70,17 @@ console.log(myobj.cars.car1);
 console.log(myobj.cars['car1']);
 console.log(myobj['cars']['car1']);
 console.log(myobj["cars"].car1);
+
+let persooln = {
+    firstName: 'John',
+    lastName: 'Doe',
+    greet: function () {
+        console.log('Hello, World!');
+    },
+    getFullName: function () {
+        return this.firstName + ' ' + this.lastName;
+    }
+};
+
+
+console.log(persooln.getFullName());
